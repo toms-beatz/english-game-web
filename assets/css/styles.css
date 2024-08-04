@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "Nectarine";
+    src:
+            url("../fonts/Nectarine.ttf")
+}
+
+@font-face {
+    font-family: "Blue";
+    src:
+            url("../fonts/blue-style.ttf")
+}
+
+@font-face {
+    font-family: "Artigo";
+    src:
+            url("../fonts/Artigo.otf")
+}
+
+@font-face {
+    font-family: "AdobeCaslonPro";
+    src:
+            url("../fonts/AdobeCaslon.otf")
+}
+
+@font-face {
+    font-family: "AdobeHandwriting";
+    src:
+            url("../fonts/AdobeHandwriting.ttf")
+}
+
+@font-face {
+    font-family: "AllRoundGothic";
+    src:
+            url("../fonts/allroundgothic.otf")
+}
+
+@font-face {
+    font-family: "Alfarn2";
+    src:
+            url("../fonts/Script.ttf")
+}
+
+@font-face {
+    font-family: "BelyDisplay";
+    src:
+            url("../fonts/Bely.ttf")
+}
+
+@font-face {
+    font-family: "FinoSans";
+    src:
+            url("../fonts/FinoSans.ttf")
+}
+
+@font-face {
+    font-family: "Cortado";
+    src:
+            url("../fonts/FinoSans.ttf")
+}
+
+@font-face {
+    font-family: "JuniperSTD";
+    src:
+            url("../fonts/JuniperStd.otf")
+}
+
+@font-face {
+    font-family: "Ultra";
+    src:
+            url("../fonts/Ultra.ttff")
+}
+
+h1  {
+    font-family: "Nectarine", serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.gm {
+    font-family: "Nectarine", serif;
+}
+
+.item p, .refresh, .reveal {
+    font-family: "Blue", serif;
+}
+
+#avoidSpan {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.Brown { color: brown; }
+.Yellow { color: yellow; }
+.Blue { color: blue; }
+.White { color: white; }
+.Black { color: black; }
+.Red { color: red; }
+.Purple { color: purple; }
+.Orange { color: orange; }
+.Green { color: green; }
+.Pink { color: pink; }
+
+a[target="_blank"]{
+    display:none;
+}
+
+.Artigo{
+    font-family: "Artigo", serif;
+}
+
+.AdobeCaslonPro{
+    font-family: "AdobeCaslonPro", serif;
+}
+
+.AdobeHandwriting{
+    font-family: "AdobeHandwriting", serif;
+}
+
+.AllRoundGothic{
+    font-family: "AllRoundGothic", serif;
+}
+
+.Alfarn2{
+    font-family: "Alfarn2", serif;
+}
+
+.BelyDisplay{
+    font-family: "BelyDisplay", serif;
+}
+
+.FinoSans{
+    font-family: "FinoSans", serif;
+}
+
+.Cortado{
+    font-family: "Cortado", serif;
+}
+
+.JuniperSTD{
+    font-family: "JuniperSTD", serif;
+}
+
+.Ultra{
+    font-family: "Ultra", serif;
+}
+
+body {
+    background-image: url("../img/phone-bg.png");
+}
+
+@media screen and (min-width: 980px) {
+    body {
+        background-image: url("../img/desktop-bg.png");
+    }
+}
